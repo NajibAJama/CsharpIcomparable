@@ -14,7 +14,7 @@ namespace CsharpIcomparable
         public int CompareTo(object obj)
         {
             Person otherPerson = (Person)obj;
-            return this.FirstName.CompareTo(otherPerson);
+            return this.FirstName.CompareTo(otherPerson.FirstName);
             throw new NotImplementedException();
         }
 
